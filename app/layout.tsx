@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Epilogue } from "next/font/google";
+import { epilogueFont } from "./fonts";
 import "./globals.css";
-
-const epilogue = Epilogue({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Tech Synergy",
@@ -17,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={epilogue.className}>{children}</body>
+      <body className={epilogueFont.className}>{children}</body>
     </html>
   );
 }

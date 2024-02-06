@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import IconChevronDown from "@/app/icons/IconChevronDown";
+import { epilogueFont } from "@/app/fonts";
 
 const options = ["Home", "About", "Services", "Contacts"];
 const Header = () => {
@@ -34,7 +35,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flex flex-row h-full items-center gap-[14px]">
-          <div className="h-full w-fit flex flex-row justify-between px-4 gap-[6px] items-center cursor-pointer">
+          <div className="h-full w-fit flex flex-row justify-between px-4 gap-1.5 items-center cursor-pointer">
             <p>EN</p>
             <IconChevronDown />
           </div>
