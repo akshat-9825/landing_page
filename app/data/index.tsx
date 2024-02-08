@@ -57,3 +57,30 @@ export const empoweringCardData = [
       "Ensure applications are secure, fault tolerant and highly available with our DevOps and Security engineers.",
   },
 ];
+
+export const reviewCardData = [
+  {
+    id: 1,
+    heading: "Exceptional Solutions, Exceeded Expectations!",
+    subtext:
+      "Working with Nearshore has been an absolute pleasure. Their team took the time to understand our unique needs and delivered a solution that not only met but exceeded our expectations. Their expertise and commitment to excellence are truly commendable.",
+    name: "Mary Johnson",
+    designation: "CEO of TechCraft Solutions",
+  },
+  {
+    id: 2,
+    heading: "Transformed Our Business with Innovative Tech!",
+    subtext:
+      "We owe a significant part of our success to [Company Name]. Their custom software solution streamlined our processes, saving us time and resources. Their team's dedication to innovation and problem-solving is unmatched. We're grateful for their partnership.",
+    name: "Mark Williams",
+    designation: "COO of InnovateNow Inc",
+  },
+  {
+    id: 3,
+    heading: "Sculpted User Experiences Beyond Imagination!",
+    subtext:
+      "The UI/UX design crafted by [Company Name] turned our app into a masterpiece. The attention to detail, intuitive design, and user-centric approach have resulted in rave reviews from our customers. Their design expertise has taken our brand to a whole new level.",
+    name: "Emily Clark",
+    designation: "CMO of Visionary Apps",
+  },
+];
