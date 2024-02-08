@@ -4,7 +4,7 @@ import EmpoweringCard from "./EmpoweringCard";
 
 const EmpoweringPage = () => {
   return (
-    <div className="w-full">
+    <div>
       <div className="mt-[129px] flex flex-row mx-auto max-w-[60%] gap-[18px]">
         <Image
           width={91}

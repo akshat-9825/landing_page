@@ -7,8 +7,8 @@ const Header = () => {
   const [selected, setSelected] = useState<Number>(0);
 
   return (
-    <div className="flex flex-row w-full items-center justify-center h-[98px] px-12">
-      <div className="flex flex-row justify-between h-fit w-full items-center">
+    <div className="flex flex-row items-center justify-center h-[98px] px-12">
+      <div className="w-full flex flex-row justify-between h-fit items-center">
         <Image
           width={48}
           height={48}
@@ -18,7 +18,7 @@ const Header = () => {
           loading="lazy"
         />
         <div className="bg-gray-100 rounded-full flex flex-row items-center font-epilogue text-base leading-tight py-4 px-16 font-medium">
-          <div className="flex flex-row w-full gap-16">
+          <div className="flex flex-row gap-16">
             {options.map((option, index) => (
               <div
                 key={index}

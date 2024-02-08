@@ -3,7 +3,7 @@ import ChallengeCard from "./ChallengeCard";
 
 const ChallengePage = () => {
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <div className="mt-[72.5px] font-medium text-4xl leading-60 bg-gradient-to-r from-gray-900 to-gray-900 bg-clip-text text-transparent">
         We have multidisciplinary teams to meet any{" "}
         <span className="bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent">

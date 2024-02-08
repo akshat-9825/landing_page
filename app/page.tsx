@@ -11,10 +11,10 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen w-screen">
-      <div className="w-full mb-[26px]">
+      <div className="mb-[26px]">
         <Header />
       </div>
-      <div className="w-full">
+      <div>
         <TitlePage />
       </div>
       <ChallengePage />

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const TitlePage = () => {
   return (
-    <div className="w-full flex flex-col h-[679px] justify-center pl-[60px] pr-12">
+    <div className="flex flex-col h-[679px] justify-center pl-[60px] pr-12">
       <div className="max-w-[490px] -translate-y-14">
         <div
           className={`font-semibold text-lg leading-6 tracking-wider text-left text-yellow-400 ${robotoFlexFont.className} mb-5`}>

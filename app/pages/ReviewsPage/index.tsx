@@ -22,7 +22,7 @@ const ReviewsPage = () => {
           Our 4,000+ team has expertise in almost everyprogramming language.
         </div>
       </div>
-      <div className="mt-[91px] py-10 px-[49.5px] w-full gap-[39px] flex flex-row overflow-x-hidden">
+      <div className="mt-[91px] py-10 px-[49.5px] gap-[39px] flex flex-row overflow-x-hidden">
         {reviewCardData.map((review, index) => (
           <ReviewCard key={index} {...review} />
         ))}
