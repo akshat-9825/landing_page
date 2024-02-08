@@ -19,7 +19,7 @@ const TitlePage = () => {
           See projects
         </button>
       </div>
-      <div className="absolute -z-10 right-12">
+      <div className="absolute -z-10 left-72">
         <div className="relative w-fit">
           <Image
             src="/Image/titleBackground.png"

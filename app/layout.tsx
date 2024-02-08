@@ -15,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={epilogueFont.className}>{children}</body>
+      <body
+        className={`${epilogueFont.className} overflow-hidden hover:overflow-y-auto`}>
+        {children}
+      </body>
     </html>
   );
 }

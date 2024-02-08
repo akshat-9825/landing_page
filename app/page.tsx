@@ -1,5 +1,6 @@
-import Header from "./components/Header";
 import ChallengePage from "./pages/ChallengePage";
+import EmpoweringPage from "./pages/EmpoweringPage";
+import Header from "./components/Header";
 import TitlePage from "./pages/TitlePage";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <TitlePage />
       </div>
       <ChallengePage />
+      <EmpoweringPage />
       <div className="h-96">.</div>
     </div>
   );
