@@ -8,7 +8,7 @@ const EmpoweringPage = () => {
       <div className="mt-[129px] flex flex-row mx-auto max-w-[60%] gap-[18px]">
         <Image
           width={91}
-          height={81}
+          height={100}
           className="h-[81px] w-[91px]"
           src="/Image/vector-blue.svg"
           alt="header-vector"

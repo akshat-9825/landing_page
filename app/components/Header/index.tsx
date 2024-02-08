@@ -39,7 +39,7 @@ const Header = () => {
             <p>EN</p>
             <IconChevronDown />
           </div>
-          <button className="bg-blue-500 text-white font-medium rounded-full h-full py-[18px] px-[25px] hover:bg-blue-600 transition-all">
+          <button className="bg-blue-600 text-white font-medium rounded-full h-full py-[18px] px-[25px] hover:bg-blue-500 transition-all">
             Schedule a Call
           </button>
         </div>

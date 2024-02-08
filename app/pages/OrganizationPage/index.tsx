@@ -46,7 +46,7 @@ const OrganizationPage = () => {
           ))}
         </div>
       </div>
-      <button className="mt-6 w-214 px-[34px] py-[18px] text-white rounded-full bg-blue-500 hover:bg-blue-600 transition-all">
+      <button className="mt-6 w-214 px-[34px] py-[18px] text-white rounded-full bg-blue-600 hover:bg-blue-500 transition-all">
         Our full repertorie
       </button>
     </div>
