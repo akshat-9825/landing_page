@@ -15,7 +15,6 @@ const EmpoweringPage = () => {
         />
         <div className="text-[40px] font-medium leading-[60px] text-gray-800">
           Empowering Your Digital Vision: Our Comprehensive Tech Services.
-          IconHexagon
         </div>
       </div>
       <div className="mt-[79px] w-[88%] mx-auto flex flex-row flex-wrap justify-between mb-[123px]">
