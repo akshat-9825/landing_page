@@ -1,9 +1,12 @@
+"use client";
+
 import ChallengePage from "./pages/ChallengePage";
 import EmpoweringPage from "./pages/EmpoweringPage";
 import Header from "./components/Header";
 import OrganizationPage from "./pages/OrganizationPage";
 import ReviewsPage from "./pages/ReviewsPage";
 import TitlePage from "./pages/TitlePage";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -20,7 +23,9 @@ export default function Home() {
         <OrganizationPage />
       </div>
       <ReviewsPage />
-      <div className="h-[100rem]"></div>
+      <div className="mt-[108px] mb-12">
+        <Footer />
+      </div>
     </div>
   );
 }

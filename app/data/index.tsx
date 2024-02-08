@@ -84,3 +84,25 @@ export const reviewCardData = [
     designation: "CMO of Visionary Apps",
   },
 ];
+
+export const footerData = [
+  {
+    heading: "Product",
+    items: [
+      "Employee database",
+      "Payroll",
+      "Absences",
+      "Time tracking",
+      "Shift planner",
+      "Recruiting",
+    ],
+  },
+  {
+    heading: "Information",
+    items: ["FAQ", "Blog", "Support"],
+  },
+  {
+    heading: "Company",
+    items: ["About us", "Careers", "Contact us", "Lift Media"],
+  },
+];

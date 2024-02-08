@@ -28,3 +28,12 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 7;
 }
+
+.custom-input[data-placeholder]:empty::before {
+  content: attr(data-placeholder);
+  color: #555;
+}
+
+.custom-input[data-placeholder]:empty:focus::before {
+  content: "";
+}

@@ -1,9 +1,6 @@
-"use client";
-
 import { useState } from "react";
 import Image from "next/image";
-import IconChevronDown from "@/app/icons/IconChevronDown";
-import { epilogueFont } from "@/app/fonts";
+import IconChevron from "@/app/icons/IconChevron";
 
 const options = ["Home", "About", "Services", "Contacts"];
 const Header = () => {
@@ -37,7 +34,7 @@ const Header = () => {
         <div className="flex flex-row h-full items-center gap-[14px]">
           <div className="h-full w-fit flex flex-row justify-between px-4 gap-1.5 items-center cursor-pointer">
             <p>EN</p>
-            <IconChevronDown />
+            <IconChevron height={16} width={16} direction="down" />
           </div>
           <button className="bg-blue-600 text-white font-medium rounded-full h-full py-[18px] px-[25px] hover:bg-blue-500 transition-all">
             Schedule a Call
