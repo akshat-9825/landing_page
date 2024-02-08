@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import ChallengePage from "./pages/ChallengePage";
 import TitlePage from "./pages/TitlePage";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
       <div className="w-full">
         <TitlePage />
       </div>
+      <ChallengePage />
+      <div className="h-96">.</div>
     </div>
   );
 }
