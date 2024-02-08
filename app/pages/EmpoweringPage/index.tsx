@@ -9,7 +9,7 @@ const EmpoweringPage = () => {
         <Image
           width={91}
           height={81}
-          className="h-[81px]"
+          className="h-[81px] w-[91px]"
           src="/Image/vector-blue.svg"
           alt="header-vector"
         />
@@ -21,14 +21,14 @@ const EmpoweringPage = () => {
         <Image
           width={190}
           height={170}
-          className="absolute h-[170px] -z-10 top-2/3 left-[20%]"
+          className="absolute h-[170px] -z-10 top-2/3 left-[20%] w-[190px]"
           src="/Image/vector-blue.svg"
           alt="card-vector"
         />
         <Image
           width={190}
           height={170}
-          className="absolute h-[170px] -z-10 top-[30%] left-[60%]"
+          className="absolute h-[170px] -z-10 top-[30%] left-[60%] w-[190px]"
           src="/Image/vector-green.svg"
           alt="card-vector"
         />

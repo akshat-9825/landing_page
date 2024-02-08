@@ -9,7 +9,13 @@ interface EmpoweringCardsProps {
 const EmpoweringCard = (props: EmpoweringCardsProps) => {
   return (
     <div className="bg-white w-[385px] h-[321px] pt-7 pb-[38px] px-7 flex flex-col justify-between shadow-3xl rounded-[35px] cursor-pointer hover:scale-[1.02] transition-all">
-      <Image width={50} height={50} alt="card-image" src={props.image} />
+      <Image
+        width={50}
+        height={50}
+        alt="card-image"
+        src={props.image}
+        className="h-[50px] w-[50px]"
+      />
       <div className="flex flex-col gap-[19px]">
         <div className="text-[28px] font-medium leading-[40px] text-gray-800">
           {props.heading}

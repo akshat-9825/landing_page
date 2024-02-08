@@ -1,6 +1,7 @@
 import ChallengePage from "./pages/ChallengePage";
 import EmpoweringPage from "./pages/EmpoweringPage";
 import Header from "./components/Header";
+import OrganizationPage from "./pages/OrganizationPage";
 import TitlePage from "./pages/TitlePage";
 
 export default function Home() {
@@ -14,7 +15,10 @@ export default function Home() {
       </div>
       <ChallengePage />
       <EmpoweringPage />
-      <div className="h-96">.</div>
+      <div className="w-[93%] my-[97px] mx-auto">
+        <OrganizationPage />
+      </div>
+      <div className="h-96"></div>
     </div>
   );
 }
