@@ -7,7 +7,7 @@ interface ChallengeCardDataType {
 }
 const ChallengeCard = (props: ChallengeCardDataType) => {
   return (
-    <div className="min-w-[329px] max-w-[344px] flex flex-col gap-[35px]">
+    <div className="min-w-[329px] max-w-[344px] flex flex-col gap-[35px] hover:scale-[1.02] transition-all cursor-pointer">
       <Image width={50} height={50} src={props.image} alt="challenge_icon" />
       <div className="flex flex-col gap-2">
         <div className="text-[28px] font-medium leading-[40px] text-gray-800">

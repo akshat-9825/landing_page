@@ -10,14 +10,28 @@ const EmpoweringPage = () => {
           width={91}
           height={81}
           className="h-[81px]"
-          src="/Image/EmpoweringHeaderVector.svg"
+          src="/Image/vector-blue.svg"
           alt="header-vector"
         />
         <div className="text-[40px] font-medium leading-[60px] text-gray-800">
           Empowering Your Digital Vision: Our Comprehensive Tech Services.
         </div>
       </div>
-      <div className="mt-[79px] w-[88%] mx-auto flex flex-row flex-wrap justify-between mb-[123px]">
+      <div className="relative mt-[79px] w-[88%] mx-auto grid grid-cols-3 gap-y-12 gap-x-[calc((100% - (3 * <fixed-width>)) / 2)] mb-[123px]">
+        <Image
+          width={190}
+          height={170}
+          className="absolute h-[170px] -z-10 top-2/3 left-[20%]"
+          src="/Image/vector-blue.svg"
+          alt="card-vector"
+        />
+        <Image
+          width={190}
+          height={170}
+          className="absolute h-[170px] -z-10 top-[30%] left-[60%]"
+          src="/Image/vector-green.svg"
+          alt="card-vector"
+        />
         {empoweringCardData.map((card, index) => (
           <EmpoweringCard key={index} {...card} />
         ))}
