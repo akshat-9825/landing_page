@@ -10,7 +10,7 @@ const ChallengePage = () => {
           challenge
         </span>
       </div>
-      <div className="w-[94%] shadow-custom rounded-[35px] mt-11 mb-[72.5px] pl-[66.5px] pr-[65.5px] py-[32.5px] flex flex-row justify-between">
+      <div className="w-[94%] shadow-3xl rounded-[35px] mt-11 mb-[72.5px] pl-[66.5px] pr-[65.5px] py-[32.5px] flex flex-row justify-between">
         {challengeCardData.map((card, index) => (
           <ChallengeCard key={index} {...card} />
         ))}
