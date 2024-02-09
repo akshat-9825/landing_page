@@ -26,10 +26,10 @@ export default function Home() {
       {/* <ReviewsPage />
       <div className="my-[166px]">
         <TransformPage />
-      </div>
+      </div> */}
       <div className="mt-[108px] mb-12">
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 }
