@@ -9,7 +9,7 @@ export const challengeCardData = [
     image: "/Image/simcard.svg",
     heading: "Back-end",
     subtext:
-      "Our backend developers are the architects of efficiency and security. They design and build the databases andAPIs.",
+      "Our backend developers are the architects of efficiency and security. They design and build the databases and APIs.",
   },
   {
     image: "/Image/driver.svg",

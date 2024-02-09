@@ -7,7 +7,7 @@ const Header = () => {
   const [selected, setSelected] = useState<Number>(0);
 
   return (
-    <div className="flex flex-row items-center justify-center h-[98px] px-12">
+    <div className="flex flex-row items-center justify-center h-[98px] px-12 sm:invisible">
       <div className="w-full flex flex-row justify-between h-fit items-center">
         <Image
           width={48}
