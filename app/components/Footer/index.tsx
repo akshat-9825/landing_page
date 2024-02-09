@@ -27,7 +27,7 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col mx-auto w-[81.5%]">
-      <div className="grid grid-cols-2 grid-rows-3 sm-grid-rows-1 gap-y-[24px] sm:grid-cols-9 border-b-2 border-gray-200 pb-[49px] sm:pb-[54px]">
+      <div className="grid grid-cols-2 grid-rows-3 sm:grid-rows-1 gap-y-[24px] sm:grid-cols-9 border-b-2 border-gray-200 pb-[49px] sm:pb-[54px]">
         <div className="h-fit flex flex-col gap-4 col-span-1 sm:col-span-2 sm:mt-8 leading-6 font-normal text-[16px]">
           <div>{footerData[1].heading}</div>
           {footerData[1].items.map((item, index) => (
