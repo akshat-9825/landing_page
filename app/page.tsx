@@ -23,7 +23,7 @@ export default function Home() {
       <div className="w-[93%] my-[17px] sm:my-[97px] mx-auto">
         <OrganizationPage />
       </div>
-      {/* <ReviewsPage /> */}
+      <ReviewsPage />
       <div className="mt-[89.5px] mb-[123px] sm:my-[166px]">
         <TransformPage />
       </div>
