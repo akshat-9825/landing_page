@@ -11,7 +11,7 @@ const EmpoweringPage = () => {
       <div className="mt-[35px] sm:mt-[129px] flex flex-row mx-auto max-w-[87%] sm:max-w-[60%] gap-[18px]">
         <Image
           width={91}
-          height={100}
+          height={81}
           className="w-[66px] h-[59px] translate-y-2 sm:translate-y-0 sm:h-[81px] sm:w-[91px]"
           src="/Image/vector-blue.svg"
           alt="header-vector"
@@ -21,7 +21,7 @@ const EmpoweringPage = () => {
         </div>
       </div>
       <div className="ml-4 sm:ml-0 overflow-scroll no-scrollbar">
-        <div className="relative mt-[27px] sm:mt-[79px] w-max sm:w-[87%] sm:mx-auto grid grid-cols-6 sm:grid-cols-3 gap-x-[35px] sm:gap-x-0 sm:gap-y-12 mb-[35px] sm:mb-[123px]">
+        <div className="relative pl-2 sm:pl-0 mt-[27px] sm:mt-[79px] w-max sm:w-[87%] sm:mx-auto grid grid-cols-6 sm:grid-cols-3 gap-x-[35px] sm:gap-x-0 sm:gap-y-12 mb-[35px] sm:mb-[123px]">
           {!mobile && (
             <div className="absolute">
               <Image

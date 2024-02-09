@@ -30,7 +30,7 @@ const TitlePage = () => {
             width={1102}
             height={679}
             className="top-0 sm:w-[1102px] sm:h-[679px]"
-            loading="lazy"
+            priority
           />
           {!mobile ? (
             <div className="absolute inset-0 bg-gradient-to-l from-transparent to-white" />
