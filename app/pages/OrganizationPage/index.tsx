@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-const Logos = ["microsoft", "google", "slack", "lg"];
+const Logos = ["samsung", "microsoft", "google", "slack", "lg", "sony"];
 
 const OrganizationPage = () => {
   return (
-    <div className="bg-gray-100 relative rounded-[36px] flex flex-col pt-[77px] pb-12 items-center">
+    <div className="bg-gray-100 overflow-hidden relative rounded-[36px] flex flex-col pt-[77px] pb-12 items-center">
       <Image
         width={91}
         height={81}
@@ -27,7 +27,7 @@ const OrganizationPage = () => {
               key={index}
               width={120}
               height={120}
-              className="h-auto w-auto mx-[74px]"
+              className="h-[120px] w-[120px] ml-[102px]"
               src={`/Image/logo_${logo}.svg`}
               alt="logo"
             />
@@ -39,7 +39,7 @@ const OrganizationPage = () => {
               key={index}
               width={120}
               height={120}
-              className="h-auto w-auto mx-[74px]"
+              className="h-[120px] w-[120px] ml-[102px]"
               src={`/Image/logo_${logo}.svg`}
               alt="logo"
             />
