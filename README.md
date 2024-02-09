@@ -8,9 +8,6 @@ Test on https://landing-page-eta-nine-30.vercel.app/
 
 Demo Video:
 
-https://github.com/akshat-9825/landing_page/assets/56993884/fdbfa8db-77f4-4777-b653-1401b5d129af
-
-
 ## Deployment
 
 To deploy this project run
@@ -18,6 +15,16 @@ To deploy this project run
 ```bash
   yarn build
 ```
+
+## Design Decisions
+
+1. Moved Product Details in Footer to third column instead of first to avoid unnecessary complications in code
+
+## To implement:
+
+1.  Testing for the landing page
+
+2.  "Choose Us" and "Let's form a crew page"
 
 ## Run Locally
 
