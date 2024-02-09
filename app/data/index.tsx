@@ -22,7 +22,7 @@ export const challengeCardData = [
 export const empoweringCardData = [
   {
     image: "/Image/document.svg",
-    heading: "Custom SoftwareDevelopment",
+    heading: "Custom Software Development",
     subtext:
       "Create custom software tailored for your unique needs, including front-end, and core back-end technology.",
   },

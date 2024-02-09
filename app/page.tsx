@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <ChallengePage />
       <EmpoweringPage />
-      <div className="w-[93%] my-[97px] mx-auto">
+      {/* <div className="w-[93%] my-[97px] mx-auto">
         <OrganizationPage />
       </div>
       <ReviewsPage />
@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <div className="mt-[108px] mb-12">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
