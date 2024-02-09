@@ -12,7 +12,7 @@ import TransformPage from "./pages/TransformPage";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen w-screen">
-      <div className="mb-[26px]">
+      <div className="sm:mb-[26px]">
         <Header />
       </div>
       <div>
