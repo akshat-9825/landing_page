@@ -8,6 +8,9 @@ Test on https://landing-page-eta-nine-30.vercel.app/
 
 Demo Video:
 
+https://github.com/akshat-9825/landing_page/assets/56993884/fdbfa8db-77f4-4777-b653-1401b5d129af
+
+
 ## Deployment
 
 To deploy this project run
