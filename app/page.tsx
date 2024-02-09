@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <ChallengePage />
       <EmpoweringPage />
-      <div className="w-[93%] my-[97px] mx-auto">
+      <div className="w-[93%] my-[17px] sm:my-[97px] mx-auto">
         <OrganizationPage />
       </div>
       {/* <ReviewsPage />
