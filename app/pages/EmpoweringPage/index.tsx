@@ -21,7 +21,7 @@ const EmpoweringPage = () => {
         </div>
       </div>
       <div className="ml-4 sm:ml-0 overflow-scroll no-scrollbar">
-        <div className="relative pl-2 sm:pl-0 mt-[27px] sm:mt-[79px] w-max sm:w-[87%] sm:mx-auto grid grid-cols-6 sm:grid-cols-3 gap-x-[35px] sm:gap-x-0 sm:gap-y-12 mb-[35px] sm:mb-[123px]">
+        <div className="relative px-2 sm:px-0 mt-[27px] sm:mt-[79px] w-max sm:w-[87%] sm:mx-auto grid grid-cols-6 sm:grid-cols-3 gap-x-[35px] sm:gap-x-0 sm:gap-y-12 mb-[35px] sm:mb-[123px]">
           {!mobile && (
             <div className="absolute">
               <Image
