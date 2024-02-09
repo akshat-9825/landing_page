@@ -23,11 +23,11 @@ export default function Home() {
       <div className="w-[93%] my-[17px] sm:my-[97px] mx-auto">
         <OrganizationPage />
       </div>
-      {/* <ReviewsPage />
-      <div className="my-[166px]">
+      {/* <ReviewsPage /> */}
+      <div className="mt-[89.5px] mb-[123px] sm:my-[166px]">
         <TransformPage />
-      </div> */}
-      <div className="mt-[108px] mb-12">
+      </div>
+      <div className="mt-12 sm:mt-[108px] mb-12">
         <Footer />
       </div>
     </div>
