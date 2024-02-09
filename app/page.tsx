@@ -7,6 +7,7 @@ import OrganizationPage from "./pages/OrganizationPage";
 import ReviewsPage from "./pages/ReviewsPage";
 import TitlePage from "./pages/TitlePage";
 import Footer from "./components/Footer";
+import TransformPage from "./pages/TransformPage";
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
         <OrganizationPage />
       </div>
       <ReviewsPage />
+      <div className="my-[166px]">
+        <TransformPage />
+      </div>
       <div className="mt-[108px] mb-12">
         <Footer />
       </div>
